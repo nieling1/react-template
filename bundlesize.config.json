@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "path": "./dist/js/*.js",
+      "maxSize": "50 kB",
+      "compression": "none"
+    },
+    {
+      "path": "./dist/css/*.js",
+      "maxSize": "50 kB",
+      "compression": "none"
+    }
+  ]
+}

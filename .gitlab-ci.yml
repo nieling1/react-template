@@ -1,0 +1,13 @@
+stages:
+  - dev
+  - test
+  - master
+
+prd:
+  stage: dev
+  tags:
+    - frontend
+  only:
+    - dev
+  script:
+    - yarn

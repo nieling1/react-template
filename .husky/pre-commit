@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+#echo "==================== eslint检查 ===================="
+#yarn lint
+#
+#echo "==================== stylelint检查 ===================="
+#yarn lint:style
+#
+#echo "==================== prettier检查 ===================="
+#yarn prettier
+#
+#echo "代码检查完成，即将提交git..."
+npx --no-install lint-staged

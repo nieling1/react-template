@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-rational-order"
+  ],
+  "plugins": [
+    "stylelint-order",
+    "stylelint-less"
+  ],
+  "customSyntax": "postcss-less",
+  "rules": {
+    "declaration-no-important": true
+  }
+}
