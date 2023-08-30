@@ -93,22 +93,6 @@ module.exports = {
             test: /\.(woff2?|ttf)$/,
             type: 'asset/resource',
           },
-          {
-            test: /\.mdx?$/,
-            exclude: /node_modules/,
-            use: [
-              {
-                loader: 'babel-loader',
-                options: {
-                  cacheDirectory: true,
-                  cacheCompression: false,
-                },
-              },
-              {
-                loader: '@mdx-js/loader',
-              },
-            ],
-          },
         ],
       },
     ],

@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'cheap-module-source-map',
   plugins: [new ReactRefreshPlugin()],
   devServer: {
-    // port: 3015,
+    port: 3001,
     compress: true,
     hot: true,
     historyApiFallback: true,
